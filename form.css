@@ -10,7 +10,7 @@ body {
     border-top-style: ridge;
     border-image: auto;
     display: flex;
-    height: 40%;
+    height: 20%;
     gap: 25px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -19,7 +19,7 @@ body {
 
 .flex-container > div {
     background: #ffecb3;
-    width: 40%;
+    width: 35%;
 }
 
 .flex-container > div > img {
@@ -43,6 +43,11 @@ p {
 }
 
 .glasscont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
     position:absolute;
     top: 50%;
     left: 5%;
@@ -69,10 +74,15 @@ p {
 }
 
 .glasscont2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
     position:absolute;
-    top: 125%;
+    position:absolute;
+    top: 155%;
     left: 5%;
-    transform: translate(-50%, -50%);
     width: 8%;
     height: 45px;
     background: rgba(255, 255, 255, 0.3);
@@ -91,18 +101,22 @@ p {
         transform: rotate(90deg);
     }
     100% {
-        transform: rotate(90deg) translateX(400%);
+        transform: rotate(90deg) translateX(300%);
     }
 }
 
 
 .glasscont3 {
-    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    position:absolute;position:absolute;
     top: 50%;
     right: -2.9%;
-    transform: translate(-50%, -50%);
     width: 7%;
-    height: 52px;
+    height: 42px;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 30px;
     animation-name: slideIn;
@@ -125,12 +139,16 @@ p {
 
 
 .glasscont4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
     position:absolute;
     top: 126%;
     right: 11.9%;
-    transform: translate(-50%, -50%);
     width: 7%;
-    height: 52px;
+    height: 42px;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 30px;
     animation-name: arch;
