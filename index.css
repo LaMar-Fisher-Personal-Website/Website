@@ -31,7 +31,9 @@ p {
 }
 
 img {
-    padding-left: 100px;
+    position: relative;
+    left: 15%;
+    padding-left: 50px;
 }
 
 h5 {
