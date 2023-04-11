@@ -72,3 +72,12 @@ body {
         width: 125%;
         height: auto;
     }
+
+    @media only screen and (max-device-width: 844px) {
+        body {
+            background-color: lightblue;
+        }
+        h1 {
+            font-size: 28px;
+        }
+    }

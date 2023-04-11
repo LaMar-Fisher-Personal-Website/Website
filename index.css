@@ -56,3 +56,12 @@ h5 {
 .footnotes li {
     margin-bottom: 0.5em;
 }
+
+@media only screen and (max-device-width: 844px) {
+    body {
+      background-color: beige;
+    }
+    h1 {
+        font-size: 28px
+    }
+}
