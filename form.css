@@ -9,14 +9,12 @@ body {
     border-color: lightcyan;
     border-top-style: ridge;
     border-image: auto;
-    border-style: solid;
     display: flex;
     height: 20%;
     gap: 25px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    overflow: hidden;
 }
 
 .flex-container > div {
@@ -92,7 +90,6 @@ p {
     animation-name: turnAndDRop;
     animation-duration: 12s;
     animation-iteration-count: infinite;
-    overflow:hidden
 }
 
 @keyframes turnAndDRop{
