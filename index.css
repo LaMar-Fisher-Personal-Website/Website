@@ -28,18 +28,21 @@ nav {
 p {
     font-family: cursive;
     font-size: larger;
+    margin-left: 750px;
 }
 
 img {
     position: relative;
     left: 15%;
-    padding-left: 50px;
+    padding-left: 390px;
 }
 
 h5 {
     text-align: center;
     margin-left: 100px;
     margin-top: 0;
+    justify-content: center;
+    margin-left: 140px;
 }
 
 .footnotes {
